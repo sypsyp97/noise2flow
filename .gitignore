@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+runs/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/
+datasets/
