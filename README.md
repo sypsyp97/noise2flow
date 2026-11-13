@@ -2,6 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Medical%20Imaging-blue)](https://doi.org/10.1117/1.JMI.13.6.064002)
 [![DOI](https://img.shields.io/badge/DOI-10.1117%2F1.JMI.13.6.064002-informational)](https://doi.org/10.1117/1.JMI.13.6.064002)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 This repository contains the code for the paper:
 
@@ -174,4 +175,4 @@ If you use this code, cite the paper:
 
 ## License
 
-The authors have not selected a license for this repository.
+This repository uses the MIT License. Refer to [LICENSE](LICENSE).
