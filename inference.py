@@ -72,7 +72,7 @@ def infer_flow(
             if do_clamp:
                 x = torch.clamp(x, 0.0, 1.0)
         else:
-            # Heun method (paper Eq. 12)
+            # Heun method (optional multi-step inference in the paper)
             # x_{n+1} = Π(x_n + h/2 * (v(x_n) + v(x_n + h*v(x_n))))
             v1 = v_field(x)
             x_e = x + h * v1  # no clamp on intermediate step

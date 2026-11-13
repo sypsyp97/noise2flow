@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this code, cite the paper."
+title: "Noise2Flow"
+type: software
+repository-code: "https://github.com/sypsyp97/noise2flow"
+authors:
+  - family-names: Sun
+    given-names: Yipeng
+preferred-citation:
+  type: article
+  title: "Noise2Flow: single-image conditional mean denoising flows from weak-anchor couplings"
+  journal: "Journal of Medical Imaging"
+  volume: 13
+  issue: 6
+  start: "064002"
+  year: 2026
+  doi: "10.1117/1.JMI.13.6.064002"
+  url: "https://doi.org/10.1117/1.JMI.13.6.064002"
+  authors:
+    - family-names: Sun
+      given-names: Yipeng
+    - family-names: Schneider
+      given-names: Linda-Sophie
+    - family-names: Gu
+      given-names: Mingxuan
+    - family-names: Mei
+      given-names: Siyuan
+    - family-names: Ye
+      given-names: Chengze
+    - family-names: Cai
+      given-names: Linghan
+    - family-names: Wang
+      given-names: Jinhua
+    - family-names: Hu
+      given-names: Ge
+    - family-names: Liu
+      given-names: Daiqi
+    - family-names: Yang
+      given-names: Zijin
+    - family-names: Wu
+      given-names: Fei
+    - family-names: Bayer
+      given-names: Siming
+    - family-names: Song
+      given-names: Lan
+    - family-names: Maier
+      given-names: Andreas

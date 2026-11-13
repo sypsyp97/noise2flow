@@ -29,8 +29,8 @@ class FlowTrainConfig:
     batch: int = 8
     grad_clip: float = 1.0
     weight_decay: float = 1e-4
-    rho: float = 0.50       # tube radius scale factor (paper Eq. 7)
-    sigma_cap: float = 0.03 # tube radius upper bound (paper Eq. 7)
+    rho: float = 0.50        # tube radius scale factor (rho in the paper)
+    sigma_cap: float = 0.03  # tube radius upper bound (sigma_cap in the paper)
 
 
 @dataclass
@@ -50,7 +50,6 @@ class FlowInferConfig:
     infer_steps: int = 10
     integrator: str = "heun"
 
-    
     clamp01: bool = True
 
 

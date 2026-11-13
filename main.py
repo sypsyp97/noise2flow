@@ -83,7 +83,7 @@ def denoise(
 
         d = w_p - y_p
 
-        # λ ~ U[0, 1] as in paper Eq. 6
+        # λ ~ U[0, 1]: position on the segment from the noisy patch to the anchor
         lam = torch.empty((cfg.flow_train.batch, 1, 1, 1), device=device).uniform_(0.0, 1.0)
 
         d_rms = rms_per_sample(d)

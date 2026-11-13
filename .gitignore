@@ -43,3 +43,6 @@ Thumbs.db
 data/
 datasets/
 .claude/
+
+# Demo output
+/comparison_matrix.png
